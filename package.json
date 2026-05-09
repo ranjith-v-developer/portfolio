@@ -2,6 +2,7 @@
   "name": "developer-portfolio",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://ranjith-v-developer.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
