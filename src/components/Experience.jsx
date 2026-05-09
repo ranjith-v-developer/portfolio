@@ -33,8 +33,8 @@ const Experience = () => {
                 <div className={`ml-8 md:ml-0 md:w-1/2 ${idx % 2 === 0 ? 'md:pl-16' : 'md:pr-16'}`}>
                   <div className="bg-card p-8 rounded-3xl border border-border/50 relative">
                     {/* Arrow (Desktop) */}
-                    <div className={`hidden md:block absolute top-4 w-4 h-4 bg-card border-t border-l border-border/50 rotate-[225deg] ${idx % 2 === 0 ? '-left-2' : '-right-2 rotate-45'}`} />
-                    
+                    <div className={`hidden md:block absolute top-8 w-4 h-4 bg-card border-t border-l border-border/50 ${idx % 2 === 0 ? '-left-2 -rotate-45' : '-right-2 rotate-[135deg]'}`} />
+
                     <div className="flex flex-col gap-2 mb-6">
                       <h3 className="text-xl font-bold text-primary">{exp.role}</h3>
                       <div className="text-accent font-semibold">{exp.company}</div>
