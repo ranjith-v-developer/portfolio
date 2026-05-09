@@ -21,7 +21,7 @@ const Navbar = () => {
     isManualScroll.current = true;
     setActiveSection(sectionId);
     setIsMobileMenuOpen(false);
-    
+
     // Reset manual scroll flag after the smooth scroll finishes
     setTimeout(() => {
       isManualScroll.current = false;
@@ -30,7 +30,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      setIsScrolled(window.scrollY > 10);
 
       if (isManualScroll.current) return;
 
