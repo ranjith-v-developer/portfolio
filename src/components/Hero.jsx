@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { PERSONAL_INFO } from '../constants';
 import { Download, Mail } from 'lucide-react';
 
-import resumeFile from '../assets/RANJITH.pdf';
+import resumeFile from '../assets/RANJITH_CV.pdf';
 
 const Hero = () => {
   return (
