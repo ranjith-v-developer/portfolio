@@ -4,8 +4,8 @@ export const PERSONAL_INFO = {
   location: "Chennai, India",
   email: "venuranjith4505@gmail.com",
   phoneNumber: "+91-6383046764",
-  linkedin: "https://linkedin.com/in/ranjithv",
-  github: "https://github.com/ranjithv",
+  linkedin: "https://linkedin.com/in/ranjithv-engineer",
+  github: "https://github.com/ranjithv-engineer",
   summary: "Full-Stack Software Engineer with 5+ years of experience building scalable web applications using React.js, Node.js, NestJS, GraphQL, and PostgreSQL. Primarily focused on React-based frontend development with strong backend integration skills. Passionate about writing clean, maintainable code and delivering high-performance enterprise applications."
 };
 
