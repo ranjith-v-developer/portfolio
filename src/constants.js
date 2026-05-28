@@ -70,7 +70,7 @@ export const EDUCATION = [
     degree: "Bachelor of Engineering (B.E.) in Computer Science",
     institution: "St. Peter's Institute of Higher Education and Research, Chennai",
     duration: "2022 – 2025",
-    details: "Completed alongside full-time professional experience through a flexible academic schedule."
+    details: "Completed alongside full-time professional experience through a flexible academic schedule. test"
   },
   {
     degree: "Diploma in Computer Engineering",
